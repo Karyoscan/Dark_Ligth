@@ -1,0 +1,95 @@
+*{
+    padding:0px;
+    margin: 0;;
+    box-sizing: border-box;
+    
+    }
+    
+.header-dark{
+    border-bottom: 1px solid  aliceblue ;
+
+}
+.header-ligth{
+    border-bottom: 1px solid  black ;
+
+}
+
+
+.dark{
+color: aliceblue;
+background-color: black;
+}
+.ligth{
+color: black;
+background-color: white;
+
+}
+
+
+   
+    .main-header,.div-main{
+        padding: 20px;
+    }
+    .main-header{
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        height: 100px;
+        
+    }
+    
+    .h2-header{
+    
+    color: aqua;
+    
+    }
+    
+    .logo-header{
+    
+    height: 35px;
+    width: 35px;
+    padding-right: 10px;
+    
+    }
+    
+    .div-header-one{
+    
+    display: flex;
+    align-items: center;
+    
+    
+    }
+    
+    .div-main{
+    
+        display: flex;
+        flex-direction: column;
+        height: 86.5vb;
+    
+    }
+    .div-main>ul{
+    margin: 15px 30px;
+     list-style:  none;
+
+    }
+    
+    .div-main>ul li{   
+    margin-top: 10px;
+    }
+    .div-main>ul> li::marker{
+      
+     
+        font-size: 25px;
+       
+    }
+
+    .DarkLigth{
+padding: 6px 12px;
+margin-top: 5px;
+border-radius: 50px;
+border: solid 1px black;
+cursor: pointer;
+    }
+    
