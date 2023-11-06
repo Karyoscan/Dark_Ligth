@@ -86,10 +86,48 @@ background-color: white;
     }
 
     .DarkLigth{
-padding: 6px 12px;
+        height: 15px;
+        background-color: aliceblue;
+        width: 25px;
+        border-radius: 50px;
+        border: 1px solid black;
+    }
+    .LigthDark{
+        height: 15px;
+        background-color: black;
+        width: 25px;
+        border-radius: 50px;
+        border: 1px solid aliceblue;
+        margin-left:25px ;
+    }
+    .div-DarkLigth{
+        
+cursor: pointer;
 margin-top: 5px;
 border-radius: 50px;
-border: solid 1px black;
-cursor: pointer;
+height: 15px;
+width: 50px;
+border: solid 1px gray;
+
+    }
+
+    .dügme{
+display: flex;
+align-items: center;
+margin-top: 10px;
+
+    }
+
+    .label-ligth{
+        margin-right: 8px;
+    }
+    .label-ligth-gray{
+        color: gray;
+
+    }
+
+    .label-dark{
+        margin-left: 8px;
+
     }
     
